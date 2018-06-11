@@ -19,19 +19,19 @@ We will be:
 + Bootstrapping the MEAN Stack in your MEAN Stack Application workspace with MongoDB and Node.js containers from Docker Hub.
 + Building the AngularJS application from the source in the forked repository and deploying the application on the MEAN Stack.
 
-After signing into your Github account, go to: [www.github.com/thdigitalgarage/mean-ex](www.github.com/faktorz/mean-ex) and fork the repository into your own account. This repository contains some files and a file structure that will give you a quick start on your MEAN application. I go into more detail on the files and file structure a little further into the tutorial. For now, let's complete our setup by logging into your FaktorZ account and set up the MEAN stack.
+After signing into your Github account, go to: [www.github.com/faktorz/mean-ex](www.github.com/faktorz/mean-ex) and fork the repository into your own account. This repository contains some files and a file structure that will give you a quick start on your MEAN application. I go into more detail on the files and file structure a little further into the tutorial. For now, let's complete our setup by logging into your FaktorZ account and set up the MEAN stack.
 
 After signing into your FaktorZ account, Choose the Add to Project link in the top menu bar to go to the template catalog.
 
-![Add To Project](http://assets-digitalgarage-infra.apps.faktorz.com/images/screenshots/add_to_project.png)
+![Add To Project](http://assets.faktorz.com/images/screenshots/add_to_project.png)
 
 In the add to project screen, choose the MEAN Stack Quickstart (qs-mean) from the catalog.
 
-![Add To Project](http://assets-digitalgarage-infra.apps.faktorz.com/images/screenshots/choose_quickstart.png)
+![Add To Project](http://assets.faktorz.com/images/screenshots/choose_quickstart.png)
 
 In the template configuration page for the MEAN Stack Quickstart change the Git Repository URL to point to the repository that was just forked into your account. `https://github.com/johnmccawley/mean-ex.git`. If you are running this tutorial in the free Hello World tier, you will want to set the `Memory Limit` for MongoDB to 128Mi rather than the default 192Mi. This will give your application enough room to build and deploy all of the containers it needs. For the rest of the parameters, you can simply accept the defaults for the remaining parameters and click "Create"
 
-![Add To Project](http://assets-digitalgarage-infra.apps.faktorz.com/images/screenshots/quickstart-configure.png)
+![Add To Project](http://assets.faktorz.com/images/screenshots/quickstart-configure.png)
 
 That's it. FaktorZ is now setting up your MEAN Stack. On the next page you'll be presented with some information about your new application. When you are ready, click "Continue to Overview". You will be taken to the Project Overview screen where you can watch FaktorZ do the setup work for you. In just a few minutes you'll have full MEAN stack running in containers and managed through Google Kubernetes. When MongoDB and Node.js are completely deployed, (the pod status circle is Green) simply click on the application URL in the upper right corner of the overview screen. You will be taken to a browser to see a simple "Hello World" message.
 
