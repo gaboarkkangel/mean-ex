@@ -24,7 +24,7 @@ var database = require('./config/database'); //load the database config
 
 // MongoDB conection
 mongoose.Promise = global.Promise;
-mongoose.connect(database.url, {
+mongoose.connect('mongodb://localhost:27017/meanauthdb', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 }).then(() => {
