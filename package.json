@@ -6,7 +6,7 @@
     "dependencies": {
         "body-parser": "^1.4.3",
         "express": "^4.13.4",
-        "mongoose": "^4.4.12",
+        "mongoose": "^5.9.2",
         "morgan": "^1.1.1",
         "mocha": "^2.4.5",
         "chai": "^3.5.0",
